@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'khularegular';
+}
+html, body {
+    position: relative;
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    overflow-x: hidden!important; 
+}
+.container{
+    display: grid;
+    justify-items:center;
+    width: 100%;
+    min-height: 200px;
+}
+.container-white{
+    background-color: #fff;
+}
+.wrapper{
+    display: grid;
+    width: 316px;
+}
+/* START OF HEADER */
+.header-inf{
+    margin-top: 65px;
+    position: relative;
+}
+.header-name{
+    display: inline-grid;
+    font: 47px bold;
+    margin-bottom: 23px;
+}
+.menu-triger {
+	display: block;
+    width: 33px;
+    height: 20px;
+    background: no-repeat url('../img/hamburger-icon.jpg');
+    position: absolute;
+    right: 0;
+    top: 20px;
+}	
+.menu-close {
+	display: block;
+	width: 23px;
+	height: 22px;	
+	background: no-repeat url('../img/close.jpg');
+	position: absolute;
+	right: 28px;
+	top: 66px;
+	z-index: 100;
+}
+.menu-popup {
+	display: none;	
+	background: #fff;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0;
+	box-sizing: border-box;
+	z-index: 9999;	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.menu-popup ul {
+	margin: 0;
+	padding-left: 28px;
+    padding-bottom: 150px;
+}
+.menu-popup li {
+	list-style: none;
+	margin: 10px 0;
+	padding-top: 67px;
+}
+.menu-popup li a {
+	font-size: 32px;
+	color: #828282;
+    font-weight: bold;
+	text-decoration: none;
+}
+.menu-popup li a:hover{
+	color:#070707;
+}
+.body_pointer * {
+	cursor: pointer;
+}
+.lang-block{
+    transform: rotate(90deg);
+    width: fit-content;
+    margin-right: -20px;
+}
+.lang-block a{
+    text-decoration: none;
+    color: #828282;
+    font-weight: bold;
+}
+.active-lang {
+    color: #070707!important;
+}
+.header-profession{
+    margin-bottom: 37px;
+}
+.header-banner{
+    margin-bottom: 83px;
+}
+/* ABOUT ME BLOCK */
+.container-grey{
+    background: #F6F6F6;
+}
+.about-me{
+    margin: 81px 0 76px 0;
+}
+.title{
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}
+.about-me .title{
+    margin: bottom 30px;;
+}
+.block-text p{
+    text-align: center;
+    margin-top: 25px;
+}
+/* END OF ABOUT ME BLOCK */
+/* SKILLS BLOCK */
+.skills{
+    margin: 83px 0 18px 0;
+}
+.skills .title{
+    margin-bottom: 50px;
+}
+.skills .block-text{
+    margin-bottom: 70px;
+}
+.skills-programs{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    }
+.skills-program{
+    margin-bottom: 81px;
+}
+.program-icon{
+    width: 89px;
+    height: 89px;
+    margin-bottom: 24px;
+}
+.program-name{
+    color: #828282;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    height: 28px;
+}
+.skill-stars{
+    width: 166px;
+    height: 26px;
+}
+/* END OG SKILLS BLOCK */
+/* PORTFOLIO BLOCK */
+.portfolio{
+    margin-top: 81px;
+}
+.portfolio .title{
+    margin-bottom: 64px;
+}
+.portfolio-img{
+    width: 100%;
+    margin-bottom: 33px;
+}
+.portfolio-link-wrapper{
+    margin-bottom: 99px;
+    text-align: center;
+}
+.portfolio-link{
+    text-align: center;
+    color: #070707;
+    margin-bottom: 78px;
+    font: 18px medium;
+}
+/* END OF PORTFOLIO BLOCK */
+/* CONTACTS BLOCK */
+.contacts{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 90px;
+    width: 100%;
+}
+.contacts .title{
+    margin-bottom: 27px;
+}
+.contacts .block-text{
+    margin-bottom: 40px;
+}
+.send-message-btn{
+    height: 42px;
+    width: 316px;
+    border-radius: 50px;
+    background: #070707;
+    padding: 12px 96px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    color: #fff;
+    font: 18px bold;
+}
+.send-message-btn:hover{
+    background:#fff ;
+    color:#070707;
+    cursor: pointer;
+}
+.send-message-btn:active{
+    background:#fff ;
+    color:#070707;
+    cursor: pointer;
+}
+.socials-wrapper{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+}
+.social{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+.social-text p{
+    color: #828282;
+    font: 18px medium;
+}
+/* END OF CONTACTS BLOCK */

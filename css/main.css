@@ -1,0 +1,208 @@
+.container{
+    display: grid;
+    justify-items:center;
+    width: 100%;
+    min-height: 300px;
+}
+.container-white{
+    background-color: #fff;
+}
+.wrapper{
+    display: grid;
+    width: 950px;
+}
+/* START OF HEADER */
+.header-wrapper{
+    display: grid;
+    grid-template-rows:90px 190px 387px;
+    height: 768px;
+    margin-bottom: 105px;
+}
+.nav{
+    display: grid;
+    grid-template-columns:0.6fr 1fr 1fr 1fr 0.6fr;
+    border-bottom: 1px solid #828282;
+    align-content: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #828282;
+    font-weight: bold;
+    text-align: center;
+}
+.nav-link:first-child{
+    text-align: start;
+}
+.nav-link:last-child{
+    text-align: end;
+}
+.nav-link:hover{
+    color: #070707;
+}
+.nav-link:active{
+    color: #070707;
+}
+.header-inf{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.header-inf-left{
+    font-size: 47px;
+    font-weight: bold;
+}
+.header-inf-center{
+    font-size: 18px;
+    text-align: center;
+}
+.header-inf-right{
+    justify-self: end;
+}
+.header-inf-right a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #828282;
+}
+.header-inf-right a:hover{
+    color: #070707;
+}
+.header-inf-right a:active{
+    color: #070707;
+}
+.lang-block{
+    transform: rotate(270deg);
+    width: fit-content;
+    margin-right: -20px;
+}
+.active-lang {
+    color: #070707!important;
+}
+.header-banner img{
+    width: 100%;
+}
+/* END OF HEADER */
+/* ABOUT ME BLOCK */
+.container-grey{
+    background: #F6F6F6;
+}
+.title{
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+}
+.about-me .title{
+    margin: 120px 0 18px 0;
+}
+.about-me .block-text{
+    margin-bottom: 107px;
+}
+.block-text p{
+    text-align: center;
+    margin-top: 25px;
+}
+/* END OF ABOUT ME BLOCK */
+/* SKILLS BLOCK */
+.skills .title{
+    margin: 90px 0 70px 0;
+}
+.skills .block-text{
+    margin-bottom: 83px;
+}
+.skills-programs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 222px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+.program-icon{
+    width: 89px;
+    height: 89px;
+    margin-bottom: 28px;
+}
+.program-name{
+    color: #828282;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    height: 28px;
+}
+/* END OG SKILLS BLOCK */
+/* PORTFOLIO BLOCK */
+.portfolio{
+    margin-top: 113px;
+}
+.portfolio .title{
+    margin-bottom: 47px;
+}
+.portfolio-img{
+    width: 100%;
+    margin-bottom: 45px;
+}
+.portfolio-link-wrapper{
+    margin-bottom: 99px;
+    text-align: center;
+}
+.portfolio-link{
+    text-align: center;
+    color: #070707;
+    margin-bottom: 99px;
+    font: 18px medium;
+}
+/* END OF PORTFOLIO BLOCK */
+/* CONTACTS BLOCK */
+.contacts{
+    margin-top: 114px;
+    text-align: center;
+    margin-bottom: 123px;
+    width: 100%;
+}
+.contacts .title{
+    margin-top: 20px;
+}
+.contacts .block-text{
+    margin-bottom: 42px;
+}
+.send-message-btn{
+    height: 42px;
+    width: 180px;
+    border-radius: 50px;
+    background: #070707;
+    padding: 10px 30px;
+    margin-bottom: 92px;
+    text-decoration: none;
+    color: #fff;
+    font: 18px bold;
+}
+.send-message-btn:hover{
+    background:#fff ;
+    color:#070707;
+    cursor: pointer;
+}
+.send-message-btn:active{
+    background:#fff ;
+    color:#070707;
+    cursor: pointer;
+}
+.socials-wrapper{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 302px;
+}
+.social{
+    text-align: center;
+    margin-bottom: 46px;
+}
+.social-text p{
+    color: #828282;
+    font: 14px medium;
+}
+/* END OF CONTACTS BLOCK */
